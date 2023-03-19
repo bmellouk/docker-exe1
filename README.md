@@ -21,12 +21,13 @@ A partir de ce container créer une image nommée  myalpine:v12.
       docker commit myalpes myalpine:v12
 
 * Supprimer les metadata de cette image avec docker export et docker import 
-
-    
+      
+      docker export myalpine:v12 > myalpine_v12.tar
+      cat myalpine_v12.tar | sudo docker import - myalpine:v12_new
 
 * Verifier avec docker history 
 
-      docker history myalpine:v13
+      docker history myalpine:v12_new
 
 * mettez cette image dans docker hub sous votre compte docker hub
       
