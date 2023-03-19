@@ -22,8 +22,7 @@ A partir de ce container créer une image nommée  myalpine:v12.
 
 * Supprimer les metadata de cette image avec docker export et docker import 
 
-      docker save myalpine:v12 -o myalpine_v12.tar
-      docker import myalpine_v12.tar myalpine:v13
+    
 
 * Verifier avec docker history 
 
