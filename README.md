@@ -12,7 +12,6 @@ Ensuite a l'interieur du container
 * creer un fichier test.py
 * et inserez le texte "WARNING: ret pointer is null"
 
-      cd /MountPoint
       touch test.py
       echo "WARNING: ret pointer is null" > test.py      
       
