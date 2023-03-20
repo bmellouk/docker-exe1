@@ -32,5 +32,5 @@ A partir de ce container créer une image nommée  myalpine:v12.
       
       docker login -u <docker_hub_account> -p <password>
       docker pull alpine
-      docker image tag alpine <docker_hub_account>/myfirstimage
-      docker push <docker_hub_account>/myfirstimage
+      docker image tag alpine <docker_hub_account>/myalpine
+      docker push <docker_hub_account>/myalpine
